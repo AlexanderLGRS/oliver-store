@@ -1,0 +1,11 @@
+.navbar {
+    border-bottom: 2px solid #fff;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    z-index: 2;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 20px;
+}
