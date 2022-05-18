@@ -1,5 +1,6 @@
 import React from "react";
-import './Hero.css'
+import './Hero.css';
+import { Link } from "react-router-dom";
 
 
 export default function Hero(props) {
@@ -12,9 +13,11 @@ export default function Hero(props) {
                 <h1 className="masthead-title">
                     Here you can find the latest collections for the summer
                 </h1>
-                <button className="masthead-button" type='button' onClick={goingHandler}>
-                    Let's go
-                </button>
+                <Link className="button" to={`/oliver-store/products`}>
+                    <button className="masthead-button" type='button' onClick={goingHandler}>
+                        Let's go
+                    </button>
+                </Link>
             </section>
         </React.Fragment>
     )

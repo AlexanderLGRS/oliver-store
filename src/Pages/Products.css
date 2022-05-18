@@ -35,8 +35,6 @@
     font-size: 20px;
     background-color: #212529;
     border-bottom: 2px solid #fff;
-    border-bottom-left-radius: 20%;
-    border-bottom-right-radius: 20%;
 }
 
 .category-selector select {
