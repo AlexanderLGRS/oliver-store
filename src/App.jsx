@@ -22,8 +22,8 @@ export default function App() {
       <BrowserRouter>
         <Layout>
           <Routes>
-            <Route path="/home" element={<Hero />} />
-            <Route path="/products" element={<Products categories={categories} />} />
+            <Route path="/oliver-store" element={<Hero />} />
+            <Route path="/oliver-store/products" element={<Products categories={categories} />} />
           </Routes>
         </Layout>
       </BrowserRouter>

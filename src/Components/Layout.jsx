@@ -1,5 +1,4 @@
 import React from "react";
-import logoDark from '../Logo_Dark.png'
 import './Layout.css'
 
 export default function Layout(props) {
@@ -7,7 +6,7 @@ export default function Layout(props) {
         <React.Fragment>
             <nav className="navbar navbar-dark bg-dark">
                 <div className="container">
-                    <a className="navbar-brand" href="/home">
+                    <a className="navbar-brand" href="/oliver-store">
                         Oliver's Store
                     </a>
                 </div>

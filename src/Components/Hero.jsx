@@ -1,10 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import './Hero.css'
 
 
 export default function Hero(props) {
     const goingHandler = () => {
-        document.location = '/products'
+        document.location = '/oliver-store/products'
     }
     return (
         <React.Fragment>
