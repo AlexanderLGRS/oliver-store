@@ -4,9 +4,7 @@ import { Link } from "react-router-dom";
 
 
 export default function Hero(props) {
-    const goingHandler = () => {
-        document.location = '/oliver-store/products'
-    }
+    
     return (
         <React.Fragment>
             <section className="masthead" role="img" aria-label="Image Description">
@@ -14,7 +12,7 @@ export default function Hero(props) {
                     Here you can find the latest collections for the summer
                 </h1>
                 <Link className="button" to={`/oliver-store/products`}>
-                    <button className="masthead-button" type='button' onClick={goingHandler}>
+                    <button className="masthead-button" type='button'>
                         Let's go
                     </button>
                 </Link>
