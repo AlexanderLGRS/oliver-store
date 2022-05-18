@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/oliver-store/static/css/main.2a12a687.css",
-    "main.js": "/oliver-store/static/js/main.e2448d05.js",
+    "main.js": "/oliver-store/static/js/main.df647e01.js",
     "static/js/787.b617f590.chunk.js": "/oliver-store/static/js/787.b617f590.chunk.js",
     "index.html": "/oliver-store/index.html",
     "main.2a12a687.css.map": "/oliver-store/static/css/main.2a12a687.css.map",
-    "main.e2448d05.js.map": "/oliver-store/static/js/main.e2448d05.js.map",
+    "main.df647e01.js.map": "/oliver-store/static/js/main.df647e01.js.map",
     "787.b617f590.chunk.js.map": "/oliver-store/static/js/787.b617f590.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2a12a687.css",
-    "static/js/main.e2448d05.js"
+    "static/js/main.df647e01.js"
   ]
 }
